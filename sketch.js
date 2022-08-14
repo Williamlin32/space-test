@@ -77,6 +77,8 @@ function setup() {
   createCanvas(1000, 1000);
     introVideo = createVideo("Videos/Intro.mp4");
   gameOverVideo = createVideo("Videos/GameOver.mp4");
+  introVideo.volume(0);
+  gameOverVideo.volume(0);
   textFont('Georgia')
   hideVideos();
   designInputs();
