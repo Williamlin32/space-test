@@ -46,8 +46,6 @@ var imageInstruct1, imageInstruct2, imageInstruct3, imageInstruct4;
 var leaderBoard; 
 
 function preload() {
-  introVideo = createVideo("Videos/Intro.mp4");
-  gameOverVideo = createVideo("Videos/GameOver.mp4");
   playerImage = loadImage("images/Player.png");
   shieldImage = loadImage("images/yellowShield.png");
   enemyImage1 = loadImage("images/Enemy1.png");
@@ -77,6 +75,8 @@ function preload() {
 
 function setup() {
   createCanvas(1000, 1000);
+    introVideo = createVideo("Videos/Intro.mp4");
+  gameOverVideo = createVideo("Videos/GameOver.mp4");
   textFont('Georgia')
   hideVideos();
   designInputs();
