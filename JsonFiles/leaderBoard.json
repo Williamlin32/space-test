@@ -1,0 +1,34 @@
+[
+    {
+      "name" : "Fred",
+      "score" : 250000, 
+      "ranking" : 1
+   },
+   {
+      "name" : "Lyra",
+      "score" : 136800, 
+      "ranking" : 2
+   },
+    {
+      "name" : "Alice",
+      "score" : 67200, 
+      "ranking" : 3
+   },
+    {
+      "name" : "Lebron",
+      "score" : 45000, 
+      "ranking" : 4
+   },
+    {
+      "name" : "York",
+      "score" : 15200, 
+      "ranking" : 5
+   },
+  {
+    "name": "",
+    "score": 0,
+    "ranking" : 6
+  }
+
+]
+  
