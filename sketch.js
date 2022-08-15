@@ -93,9 +93,8 @@ function setup() {
   volumeSlider = createSlider(0.0, 0.7, 0.3, 0.1);
   volumeSlider.position(770, 45);
   volumeSlider.hide();
-  introSound.play();
-  introSound.setVolume(volumeSlider.value());
   introSound.loop();
+  introSound.setVolume(volumeSlider.value());
   makingVarsForPara();
   for (var i = 0; i < numOfEnemies; i++) {
     createEnemies();
